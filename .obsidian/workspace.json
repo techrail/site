@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/bark/index.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d1bedc63d3b15fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/bark/index.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/bark/index.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/bark/index.md"
+                "file": "index.md"
               }
             }
           }
@@ -150,14 +163,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1df850af8ca63aad",
+  "active": "1d1bedc63d3b15fe",
   "lastOpenFiles": [
-    "projects/index.md",
-    "projects/bark/index.md",
+    "README.md",
+    "index.md",
     "authors/Vaibhav/Moving to Quartz.md",
+    "projects/bark/index.md",
+    "projects/index.md",
     "projects/bark",
     "projects",
-    "README.md",
     "authors/Vaibhav",
     "authors",
     "Attachments"
