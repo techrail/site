@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authors/Vaibhav/Moving to Quartz.md",
+                "file": "projects/bark/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Authors/Vaibhav/Moving to Quartz.md",
+                "file": "projects/bark/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Authors/Vaibhav/Moving to Quartz.md",
+                "file": "projects/bark/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Authors/Vaibhav/Moving to Quartz.md"
+                "file": "projects/bark/index.md"
               }
             }
           }
@@ -138,7 +138,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "switcher:Open quick switcher": false,
@@ -147,15 +146,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "1df850af8ca63aad",
   "lastOpenFiles": [
+    "projects/index.md",
+    "projects/bark/index.md",
+    "authors/Vaibhav/Moving to Quartz.md",
+    "projects/bark",
+    "projects",
     "README.md",
-    "Authors/Vaibhav/Moving to Quartz.md",
-    "Authors/Vaibhav",
-    "Authors",
+    "authors/Vaibhav",
+    "authors",
     "Attachments"
   ]
 }

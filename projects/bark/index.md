@@ -1,0 +1,1 @@
+Bark is a logger library project
