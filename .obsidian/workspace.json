@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "author/Vaibhav/Moving to Quartz.md",
+                "file": "author/Vaibhav/moving-to-quartz.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "author/Vaibhav/Moving to Quartz.md",
+                "file": "author/Vaibhav/moving-to-quartz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "author/Vaibhav/Moving to Quartz.md",
+                "file": "author/Vaibhav/moving-to-quartz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "author/Vaibhav/Moving to Quartz.md"
+                "file": "author/Vaibhav/moving-to-quartz.md"
               }
             }
           }
@@ -167,7 +167,7 @@
   "lastOpenFiles": [
     "index.md",
     "README.md",
-    "author/Vaibhav/Moving to Quartz.md",
+    "author/Vaibhav/moving-to-quartz.md",
     "projects/bark/index.md",
     "projects/index.md",
     "projects/bark",
