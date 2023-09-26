@@ -1,6 +1,6 @@
 ---
 draft: false
-title: 01 - Vaibhav's Introduction
+title: Vaibhav's Resume
 tags:
   - blog
   - vaibhav
@@ -58,11 +58,20 @@ I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/). I am a Soft
 
 ## C-Integration.com
 *February, 2011 - February, 2014 (Bangalore)*
-### Co-Founder/CTO
+### Creator
 - Sole-creator of the entire website (frontend and backend) and in the process became the core developer of QCubed in the process.
 - Users could build a virtual PC with hardware config compatibility checks
 - Retailers could manage and showcase their store on the platform
 - Featured a blog and forum with ability to attach specific blog posts and discussions to a product to help find topics related to a particular product
+
+---
+# Writeups as a Tech Journalist
+## Tech Columnist - CHIP Magazine
+*August, 2006 - December, 2006*
+
+---
+
+# Education
 
 
 

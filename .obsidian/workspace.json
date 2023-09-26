@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/bark/introduction.md",
+                "file": "authors/vaibhav/01-about-me.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/bark/introduction.md",
+                "file": "authors/vaibhav/01-about-me.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/bark/introduction.md",
+                "file": "authors/vaibhav/01-about-me.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/bark/introduction.md"
+                "file": "authors/vaibhav/01-about-me.md"
               }
             }
           }
@@ -165,11 +165,11 @@
   },
   "active": "1d1bedc63d3b15fe",
   "lastOpenFiles": [
+    "projects/bark/introduction.md",
     "authors/vaibhav/01-about-me.md",
     "authors/vaibhav/moving-to-quartz.md",
     "authors/vaibhav/gitignore-file-to-keep-a-folder.md",
     "private/Start writing in this directory.md",
-    "projects/bark/introduction.md",
     "projects/bark/index.md",
     "projects/index.md",
     "templates/New Article Template.md",
