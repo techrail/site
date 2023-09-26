@@ -5,7 +5,8 @@ tags:
   - vaibhav
   - blog
 aliases:
-  - '["test-alias"]'
+  - test-alias
+  - moving-everything-to-quartz
 ---
 I have been using Obsidian since quite some time and I have been tempted to buy the Obsidian Publish subscription because of two big reasons: 
 

@@ -4,5 +4,6 @@ title: 01 - Vaibhav's Introduction
 tags:
   - blog
   - vaibhav
+aliases:
 ---
-I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/). I am a Software Engineer who has mostly worked on Backend  
+I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/). I am a Software Engineer with about 14 years   
