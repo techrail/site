@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to allow a folder to be in git repository without its contents
 tags:
   - vaibhav
