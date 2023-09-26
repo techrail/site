@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/bark/introduction.md",
+                "file": "authors/vaibhav/moving-to-quartz.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/bark/introduction.md",
+                "file": "authors/vaibhav/moving-to-quartz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/bark/introduction.md",
+                "file": "authors/vaibhav/moving-to-quartz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/bark/introduction.md"
+                "file": "authors/vaibhav/moving-to-quartz.md"
               }
             }
           }
@@ -165,15 +165,16 @@
   },
   "active": "1d1bedc63d3b15fe",
   "lastOpenFiles": [
+    "private/Start writing in this directory.md",
+    "private/01-about-me.md",
+    "projects/bark/introduction.md",
     "projects/bark/index.md",
     "projects/index.md",
-    "projects/bark/introduction.md",
     "templates/New Article Template.md",
     "README.md",
     "index.md",
     "authors/vaibhav/moving-to-quartz.md",
     "authors/vaibhav/gitignore-file-to-keep-a-folder.md",
-    "private/Start writing in this directory.md",
     "knowledge-base/Untitled.md",
     "knowledge-base",
     "private/Untitled.md",
