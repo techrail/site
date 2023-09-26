@@ -94,15 +94,15 @@ I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/) - a Software
 # Education
 - B.E in Information Science from The Oxford College of Engineering - 2010 (*Dropped Out*)
 - Class 12th (CBSE) in science stream - 2005
-- Class 10th (CBSE) in science stream - 2003
+- Class 10th (CBSE) - 2003
 
 ---
 # Proficiency 
-**Communication Languages**: Hindi, English
-**Programming Languages**: Go, Ruby (Ruby on Rails), Shell (ZSH & Bash). *Previously*: Java (Spring), PHP, HTML/CSS/JS
-**Technologies**: Linux, Kubernetes, Docker, AWS (EC2, SES, SNS, S3, Route53, Kinesis, RDS, Elasticache)
-**Databases**: PostgreSQL, Redis
-**Toolsets**: Jetbrains IDEs (Intellij IDEA, Goland RubyMine, PhpStorm etc.), Visual Studio Code, Vim/NeoVim, git and related tech (Github, Gitlab, Bitbucket etc.), Nginx, Kong, 
+- **Communication Languages**: Hindi, English
+- **Programming Languages**: Go, Ruby (Ruby on Rails), Shell (ZSH & Bash). *Previously*: Java (Spring), PHP, HTML/CSS/JS
+- **Technologies**: Linux, Kubernetes, Docker, AWS (EC2, SES, SNS, S3, Route53, Kinesis, RDS, Elasticache)
+- **Databases**: PostgreSQL, Redis
+- **Toolsets**: Jetbrains IDEs (Intellij IDEA, Goland RubyMine, PhpStorm etc.), Visual Studio Code, Vim/NeoVim, git and related tech (Github, Gitlab, Bitbucket etc.), Nginx, Kong, 
 
 ---
 # Contact Information
