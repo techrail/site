@@ -91,8 +91,21 @@ I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/) - a Software
 - Created a script to automatically compile a Linux based OS from scratch (2008)
 
 ---
-
 # Education
+- B.E in Information Science from The Oxford College of Engineering - 2010 (*Dropped Out*)
+- Class 12th (CBSE) in science stream - 2005
+- Class 10th (CBSE) in science stream - 2003
+
+---
+# 
+
+# Contact Information
+- Email: vaibhav.kaushal@outlook.com
+- GitHub: https://github.com/vaibhav-kaushal
+- LinkedIn: https://www.linkedin.com/in/vaibhavkaushal/
+
+
+
 
 
 
