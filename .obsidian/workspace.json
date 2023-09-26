@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/Start writing in this directory.md",
+                "file": "private/gitignore file to keep a folder.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/Start writing in this directory.md",
+                "file": "private/gitignore file to keep a folder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/Start writing in this directory.md",
+                "file": "private/gitignore file to keep a folder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/Start writing in this directory.md"
+                "file": "private/gitignore file to keep a folder.md"
               }
             }
           }
@@ -163,11 +163,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e29de8277f1aaa8d",
+  "active": "1d1bedc63d3b15fe",
   "lastOpenFiles": [
-    "knowledge-base",
-    "templates/New Article Template.md",
     "private/Start writing in this directory.md",
+    "private/gitignore file to keep a folder.md",
+    "templates/New Article Template.md",
+    "knowledge-base/Untitled.md",
+    "knowledge-base",
     "private/Untitled.md",
     "authors/vaibhav/moving-to-quartz.md",
     "templates",
