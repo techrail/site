@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/New Article Tempalte.md",
+                "file": "private/Start writing in this directory.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/New Article Tempalte.md",
+                "file": "private/Start writing in this directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/New Article Tempalte.md",
+                "file": "private/Start writing in this directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/New Article Tempalte.md"
+                "file": "private/Start writing in this directory.md"
               }
             }
           }
@@ -165,8 +165,10 @@
   },
   "active": "1d1bedc63d3b15fe",
   "lastOpenFiles": [
+    "templates/New Article Template.md",
+    "private/Start writing in this directory.md",
+    "private/Untitled.md",
     "authors/vaibhav/moving-to-quartz.md",
-    "templates/New Article Tempalte.md",
     "templates",
     "private",
     "projects/bark/introduction.md",
