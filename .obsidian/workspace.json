@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "authors/vaibhav/moving-to-quartz.md",
+                "file": "templates/New Article Tempalte.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "authors/vaibhav/moving-to-quartz.md",
+                "file": "templates/New Article Tempalte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "authors/vaibhav/moving-to-quartz.md",
+                "file": "templates/New Article Tempalte.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "authors/vaibhav/moving-to-quartz.md"
+                "file": "templates/New Article Tempalte.md"
               }
             }
           }
@@ -163,12 +163,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e29de8277f1aaa8d",
+  "active": "1d1bedc63d3b15fe",
   "lastOpenFiles": [
+    "authors/vaibhav/moving-to-quartz.md",
+    "templates/New Article Tempalte.md",
+    "templates",
+    "private",
     "projects/bark/introduction.md",
     "index.md",
     "README.md",
-    "authors/vaibhav/moving-to-quartz.md",
     "projects/bark/index.md",
     "projects/index.md",
     "projects/bark",
