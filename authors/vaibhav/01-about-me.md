@@ -67,7 +67,27 @@ I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/). I am a Soft
 ---
 # Writeups as a Tech Journalist
 ## Tech Columnist - CHIP Magazine
-*August, 2006 - December, 2006*
+*August, 2006 - December, 2006 (Remote)*
+
+- Wrote article on Myths About Linux and Tips/Tricks related to Windows XP
+
+## Tech Columnist and Author - Digit Magazine
+*April, 2011 - May, 2017 (Remote)*
+
+- Authored FastTracks (supplementary publication) on Ubuntu Linux (June 2011) & Virtualization (April 2012) and co-authored FastTracks on Windows 8, E-Commerce, Augmented Reality, Cryptography, SoCs and many more.
+- Wrote Tip/Tricks about Linux & Windows and articles on Web Security, Distro Hopping + Live Multibooting, Future of OSes for the main publication.
+
+## Tech Columnist – OpenSource for You
+*January, 2012 - March, 2023 (Remote)*
+
+- Wrote a series on Rapid Web Application Development.
+- Wrote multiple articles on Data Storage Systems and AMP (Apache, MySQL and PHP) on Windows
+
+---
+# Passion and Achievements
+
+- All India Rank 3 in AFCEH Ethical Hacking Exam.
+- 
 
 ---
 
