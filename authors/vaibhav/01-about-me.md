@@ -97,7 +97,12 @@ I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/) - a Software
 - Class 10th (CBSE) in science stream - 2003
 
 ---
-# 
+# Proficiency 
+
+**Languages**: Go, Ruby (Ruby on Rails), Shell (ZSH & Bash). *Previously*: Java (Spring), PHP, HTML/CSS/JS
+**Languages**: Go
+**Languages**: Go
+**Languages**: Go
 
 # Contact Information
 - Email: vaibhav.kaushal@outlook.com
