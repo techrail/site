@@ -1,6 +1,9 @@
 ---
 draft: false
 title: Moving everything to Quartz
+tags:
+  - vaibhav
+  - blog
 ---
 I have been using Obsidian since quite some time and I have been tempted to buy the Obsidian Publish subscription because of two big reasons: 
 

@@ -2,8 +2,4 @@
 title: What is Techrail?
 draft: false
 ---
-
-Techrail is a community of people trying to make something useful in the Open Source space. 
-
-You can visit our projects on [GitHub](https://github.com/techrail) or connect with us on [Discord](https://discord.gg/aKkWFghPrV).
-
+This repository on GitHub contains the contents of the [Techrail website](https://techrail.in). The content has to be edited using [Obsidian](https://obsidian.md) . 
