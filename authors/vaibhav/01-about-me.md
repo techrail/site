@@ -2,12 +2,11 @@
 draft: false
 title: Vaibhav's Resume
 tags:
-  - blog
   - vaibhav
 aliases:
   - resume
 ---
-I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/). I am a Software Engineer with 10+ years of experience as a coder but have been coding for fun since more than 15 years now. I have been a FullStack (Web+Backend) + DevOps guy since the beginning but am mostly backend-heavy these days. In the past I have written for a few Tech Magazines which includes Digit, CHIP and Linux for You. I have been one of the core developers of a PHP framework in the past (named QCubed) which has been used at NASA, Stanford School of Medicine and was the framework in which the world’s largest Chess community site (Chess.com) was written in the past.
+I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/) - a Software Engineer with 10+ years of experience as a coder but have been coding for fun since more than 15 years now. I have been a FullStack (Web+Backend) + DevOps guy since the beginning but am mostly backend-heavy these days. In the past I have written for a few Tech Magazines which includes Digit, CHIP and Linux for You. I have been one of the core developers of a PHP framework in the past (named QCubed) which has been used at NASA, Stanford School of Medicine and was the framework in which the world’s largest Chess community site (Chess.com) was written in the past.
 
 ---
 # Employment History
@@ -86,8 +85,10 @@ I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/). I am a Soft
 ---
 # Passion and Achievements
 
-- All India Rank 3 in AFCEH Ethical Hacking Exam.
-- 
+- All India Rank 3 in AFCEH Ethical Hacking Exam (*April 2006*)
+- [Got featured in YourStory](http://bit.ly/vaibhav-yourstory) (*March, 2013*)
+- Attempted porting PostgreSQL’s (v 9.1) execution engine to NVidia CUDA - learnt quite a bit about DB's inner functioning along the way. (*November, 2010*)
+- Created a script to automatically compile a Linux based OS from scratch (2008)
 
 ---
 
