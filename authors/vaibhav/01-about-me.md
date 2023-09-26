@@ -98,12 +98,13 @@ I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/) - a Software
 
 ---
 # Proficiency 
+**Communication Languages**: Hindi, English
+**Programming Languages**: Go, Ruby (Ruby on Rails), Shell (ZSH & Bash). *Previously*: Java (Spring), PHP, HTML/CSS/JS
+**Technologies**: Linux, Kubernetes, Docker, AWS (EC2, SES, SNS, S3, Route53, Kinesis, RDS, Elasticache)
+**Databases**: PostgreSQL, Redis
+**Toolsets**: Jetbrains IDEs (Intellij IDEA, Goland RubyMine, PhpStorm etc.), Visual Studio Code, Vim/NeoVim, git and related tech (Github, Gitlab, Bitbucket etc.), Nginx, Kong, 
 
-**Languages**: Go, Ruby (Ruby on Rails), Shell (ZSH & Bash). *Previously*: Java (Spring), PHP, HTML/CSS/JS
-**Languages**: Go
-**Languages**: Go
-**Languages**: Go
-
+---
 # Contact Information
 - Email: vaibhav.kaushal@outlook.com
 - GitHub: https://github.com/vaibhav-kaushal
