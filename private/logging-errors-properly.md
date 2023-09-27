@@ -31,8 +31,8 @@ So what exactly do we need our logs to contain? What's the ideal log message tha
 Summarising the requirements from the above section:
 
 1. Each log message should be individually identifiable - Each log message should be identifiable separately across the codebase. 
-2. The information that helps identi - as new code is added (and sometimes old code removed), the error message should still be uniquely identifiable.
-    
-3. Each log message should be able to indicate the cause of it being logged.
-    
-4. Be able to carry enough info about error trace without needing a full call-stack dump.
+2. The information that helps identify a log message should not change as the source file updates - as new code is added (and sometimes old code removed), the error message should still be uniquely identifiable and thus, must not depend on line numbers in the source file.
+3. Contain some sort of log _level_ - It is one thing to record a user's ID in your logs and quite another to record the financial transaction IDs. Some log messages are more important than other log messages!
+4. Each log message should be able to carry enough info about error trace without needing a full stack trace dump.
+
+
