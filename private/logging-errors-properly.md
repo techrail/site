@@ -47,5 +47,19 @@ The way to fulfil the requirements we listed above, we need to attach a unique c
 I use a small script to obtain a new LMID every time I need one. The script looks like this: 
 
 ```shell
-
+#!/usr/bin/env zsh
+printf "$(([##36]$(date -u +%s) - 1600000000))" | pbcopy
 ```
+
+What does this shell script do?  The first line `#!/usr/bin/env zsh` indicates that it is a ZSH script. I mostly code on a macOS. ZSH is always available on macOS. On every linux machine I use for coding also has ZSH on it. It goes without saying that ZSH is required for this script. The second line is where the action happens: 
+
+1. `$(date -u +%s)` takes the current UNIX Timestamp value for UTC - this ensure that even if you move to another country
+
+
+
+
+
+
+
+
+
