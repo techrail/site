@@ -60,14 +60,21 @@ What does this shell script do?  The first line `#!/usr/bin/env zsh` indicates t
 5. And then we send the output to `pbcopy`. This program is always available on macOS and anything you send to it is set in the clipboard. On Linux machines, I typically use [CopyQ](https://hluk.github.io/CopyQ/) - it has a CLI command which allows me to set the value in the clipboard. 
 
 Let's check some properties of the code we get: 
-1. **Uniqueness**: This code is basically a converted Unix Timestamp - which changes every second. Unless you obtain two codes in a second and use them (which is practically unlikely), it is always unique. 
+1. **Uniqueness**: This code is basically a converted Unix Timestamp - which changes every second. Unless you obtain two codes in a second and use them (which is practically unlikely), it is always unique. It ensure that even if you are on the move across timezones, this value stays moving ahead at a constant rate - because it is the UTC timestame.
 2. **Does not update on file changes**: Once you have pasted it in your log message, it will stay there and irrespective of new changes incoming, it won't change (unless you change it again).
 3. **Short**: As of now it produces a 6 character code. It would practically take more than 60 years before it gets 7 charactered. Easy enough to tell someone over a phone.
 4. **Reveals absolutely nothing about the code itself**: Even if this logic is exposed to someone else, it never reveals anything about the code structure itself. No line numbers, no file names, no directory structure or the language used to build your program. 
 5. **Easily Obtainable**: All you have to do is to bind this script to a shortcut key in your editor and on the press of a button, you would have a new LMID in your clipboard, ready to paste!
-6. **Helps you 
 
-this ensure that even if you are on the move, this value stays 
+So how to use LMIDs in Log Messages?
+## Format of a Log Message with LMID
+When I write a LMID in my log messages, I format it this way: `<ERR_LVL_>#<LMID> - <LOG_MSG>`.
+
+1. `ERR_LVL` - A single character Indicating Error Level.
+2. `LMID` - The Log Message ID (obtained using the above mentioned method)
+3. ` - ` 
+
+
 
 
 
