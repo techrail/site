@@ -62,7 +62,10 @@ What does this shell script do?  The first line `#!/usr/bin/env zsh` indicates t
 Let's check some properties of the code we get: 
 1. **Uniqueness**: This code is basically a converted Unix Timestamp - which changes every second. Unless you obtain two codes in a second and use them (which is practically unlikely), it is always unique. 
 2. **Does not update on file changes**: Once you have pasted it in your log message, it will stay there and irrespective of new changes incoming, it won't change (unless you change it again).
-3. **Short**: 
+3. **Short**: As of now it produces a 6 character code. It would practically take more than 60 years before it gets 7 charactered. Easy enough to tell someone over a phone.
+4. **Reveals absolutely nothing about the code itself**: Even if this logic is exposed to someone else, it never reveals anything about the code structure itself. No line numbers, no file names, no directory structure or the language used to build your program. 
+5. **Easily Obtainable**: All you have to do is to bind this script to a shortcut key in your editor and on the press of a button, you would have a new LMID in your clipboard, ready to paste!
+6. **Helps you 
 
 this ensure that even if you are on the move, this value stays 
 
