@@ -73,13 +73,24 @@ So how to use LMIDs in Log Messages?
 When I write a LMID in my log messages, I format it this way: `<ERR_LVL_>#<LMID> - <LOG_MSG>`.
 
 1. `ERR_LVL` - A single character Indicating Error Level.
-2. `LMID` - The Log Message ID (obtained using the above mentioned method).
-3. ` - ` - to separate log metadata from the actual log message.
-4. `LOG_MSG` - The actual log message I want to log.
+	- `P` for Panic
+	- `A` for Alert
+	- `E` for Error
+	- `W` for Warning
+	- `N` for Notice
+	- `I` for Info
+	- `D` for Debug
+1. `LMID` - The Log Message ID (obtained using the above mentioned method).
+2. ` - ` - to separate log metadata from the actual log message.
+3. `LOG_MSG` - The actual log message I want to log.
 
-**Examples**:
+**Examples (using golang's `fmt.Println` statements)**:
 
 ```
+fmt.Println("E#1L0YN0 - User logged in:" + someUser.Id)
+fmt.Println("W#1L0YOX - User tried to access admin panel but was denied:" + someUser.Id)
+fmt.Println("P#1L0ZA3 - Could not connect to the main database!")
+fmt.Println("D#1L0ZA3 - Could not connect to the main database!")
 ```
 
 This format keeps my logs easily parsable. This is also the format that [[introduction|bark]] would use so that you can write just plain strings but they could be parsed before they get inserted in the datbase.
