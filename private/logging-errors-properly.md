@@ -43,7 +43,7 @@ The way to fulfil the requirements we listed above, we need to attach a unique c
 3. Must be short - If you have to dictate someone an error code over a phone, reciting a UUID in all its length and glory is a seriously bad idea. 
 4. Should not reveal any info about the code - it must not reveal any part of the architecture (such as line numbers, file or directory names etc.) of the code. 
 
-## The method to obtain a LMID
+## How to obtain a LMID
 I use a small script to obtain a new LMID every time I need one. The script looks like this: 
 
 ```shell
@@ -57,7 +57,12 @@ What does this shell script do?  The first line `#!/usr/bin/env zsh` indicates t
 2. Then we subtract `1600000000` from it. 
 3. We then convert the remaining value to [Base36](https://en.wikipedia.org/wiki/Base36) (that's what `[##36]` is doing)
 4. Then we print it without any newlines (`printf` does that)
-5. And then we send the output to `pbcopy`. This program is always available on macOS and anything you send to it is set in the clipboard. On Linux machines, I typically use CopyQ 
+5. And then we send the output to `pbcopy`. This program is always available on macOS and anything you send to it is set in the clipboard. On Linux machines, I typically use [CopyQ](https://hluk.github.io/CopyQ/) - it has a CLI command which allows me to set the value in the clipboard. 
+
+Let's check some properties of the code we get: 
+1. **Uniqueness**: This code is basically a converted Unix Timestamp - which changes every second. Unless you obtain two codes in a second and use them (which is practically unlikely), it is always unique. 
+2. **Does not update on file changes**: Once you have pasted it in your log message, it will stay there and irrespective of new changes incoming, it won't change (unless you change it again).
+3. **Short**: 
 
 this ensure that even if you are on the move, this value stays 
 
