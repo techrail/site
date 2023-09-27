@@ -39,4 +39,13 @@ Summarising the requirements from the above section:
 The way to fulfil the requirements we listed above, we need to attach a unique code to each log message. This code should have the following properties:
 
 1. Should be unique across our codebase. 
-2. Must be easily obtainable - you can't really depend on a sep
+2. Must be easily obtainable - you can't really depend on a separate central database of unique codes before you actually get a simple log message identifier. It also removes the inhibitions in a developers mind from updating the LMID when he is copying the log with a piece of code from elsewhere!
+3. Must be short - If you have to dictate someone an error code over a phone, reciting a UUID in all its length and glory is a seriously bad idea. 
+4. Should not reveal any info about the code - it must not reveal any part of the architecture (such as line numbers, file or directory names etc.) of the code. 
+
+## The method to obtain a LMID
+I use a small script to obtain a new LMID every time I need one. The script looks like this: 
+
+```shell
+
+```
