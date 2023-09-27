@@ -4,6 +4,8 @@ title: Why we need Log Message Identifiers or LMID
 tags:
   - blog
   - vaibhav
+  - bark
+  - logging
 aliases:
   - lmid
 ---
@@ -71,8 +73,18 @@ So how to use LMIDs in Log Messages?
 When I write a LMID in my log messages, I format it this way: `<ERR_LVL_>#<LMID> - <LOG_MSG>`.
 
 1. `ERR_LVL` - A single character Indicating Error Level.
-2. `LMID` - The Log Message ID (obtained using the above mentioned method)
-3. ` - ` 
+2. `LMID` - The Log Message ID (obtained using the above mentioned method).
+3. ` - ` - to separate log metadata from the actual log message.
+4. `LOG_MSG` - The actual log message I want to log.
+
+**Examples**:
+
+```
+```
+
+This format keeps my logs easily parsable. This is also the format that [[introduction|bark]] would use so that you can write just plain strings but they could be parsed before they get inserted in the datbase.
+
+
 
 
 
