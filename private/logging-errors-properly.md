@@ -53,7 +53,13 @@ printf "$(([##36]$(date -u +%s) - 1600000000))" | pbcopy
 
 What does this shell script do?  The first line `#!/usr/bin/env zsh` indicates that it is a ZSH script. I mostly code on a macOS. ZSH is always available on macOS. On every linux machine I use for coding also has ZSH on it. It goes without saying that ZSH is required for this script. The second line is where the action happens: 
 
-1. `$(date -u +%s)` takes the current UNIX Timestamp value for UTC - this ensure that even if you move to another country
+1. `$(date -u +%s)` takes the current [UNIX Timestamp](https://en.wikipedia.org/wiki/Unix_time) value for UTC.
+2. Then we subtract `1600000000` from it. 
+3. We then convert the remaining value to [Base36](https://en.wikipedia.org/wiki/Base36) (that's what `[##36]` is doing)
+4. Then we print it without any newlines (`printf` does that)
+5. And then we send the output to `pbcopy`. This program is always available on macOS and anything you send to it is set in the clipboard. On Linux machines, I typically use CopyQ 
+
+this ensure that even if you are on the move, this value stays 
 
 
 
