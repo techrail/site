@@ -16,4 +16,11 @@ And yet, when you have a problem to debug, oftentimes, we pull our hair in frust
 ## Introduction to the Problem
 The biggest problem with logging is created by our own selves - we copy paste code. The intentions are usually noble - we want to copy a well-working code elsewhere to replicate the functionality or to copy it and then modify the behaviour. And while we do that, sometimes (or dare I say most of the times) we leave the log messages in that piece of code untouched. I mean what's the room for innovation in doing a `log.Println("Email address is required")`? But then, if you have copied some sort of code that checks for presence of email in the input, you would have that line at maybe dozens of places and when the time to debug something comes and you see a `Email address is required` in the logs, you can't really tell where it came from.
 
-It is also common to either return the error or throw it 
+Sometimes, to make debugging easier, we dump the entire stacktrace in the logs. _But dumping stacktrace in logs causes its own set of problems_:
+
+1. It makes the log become much larger in size.
+2. The log becomes very difficult to filter and when displayed, it looks pretty "noisy".
+3. They expose a part of architecture of the codebase and that, in wrong hands can be problematic. 
+4. Stack traces often show you line numbers but line numbers or file names can change quite often against what you already have in your codebase. So then you start needed to co-relate the old line numbers with new ones and that doesn't help when you are debugging under pressure.
+
+Logs themselves cannot indicate where they were sent from. A number of logging libraries can tell you the file names and maybe the log "level" but that's it. You can
