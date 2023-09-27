@@ -35,4 +35,8 @@ Summarising the requirements from the above section:
 3. Contain some sort of log _level_ - It is one thing to record a user's ID in your logs and quite another to record the financial transaction IDs. Some log messages are more important than other log messages!
 4. Each log message should be able to carry enough info about error trace without needing a full stack trace dump.
 
+## Introducing the Log Message Identifier (LMID)
+The way to fulfil the requirements we listed above, we need to attach a unique code to each log message. This code should have the following properties:
 
+1. Should be unique across our codebase. 
+2. Must be easily obtainable - you can't really depend on a sep
