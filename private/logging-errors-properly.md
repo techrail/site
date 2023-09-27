@@ -23,4 +23,16 @@ Sometimes, to make debugging easier, we dump the entire stacktrace in the logs. 
 3. They expose a part of architecture of the codebase and that, in wrong hands can be problematic. 
 4. Stack traces often show you line numbers but line numbers or file names can change quite often against what you already have in your codebase. So then you start needed to co-relate the old line numbers with new ones and that doesn't help when you are debugging under pressure.
 
-Logs themselves cannot indicate where they were sent from. A number of logging libraries can tell you the file names and maybe the log "level" but that's it. You can
+Logs themselves cannot indicate where they were sent from. A number of logging libraries can tell you the file names and maybe the log "level" but that's it. You can't always pinpoint your log message in code using just that much information. Then again, not all languages (especially compiled ones) would preserve the line numbers of the source code for that to happen.
+
+So what exactly do we need our logs to contain? What's the ideal log message that you can store somewhere?
+
+## What should a Log Message be like?
+Summarising the requirements from the above section:
+
+1. Each log message should be individually identifiable - Each log message should be identifiable separately across the codebase. 
+2. The information that helps identi - as new code is added (and sometimes old code removed), the error message should still be uniquely identifiable.
+    
+3. Each log message should be able to indicate the cause of it being logged.
+    
+4. Be able to carry enough info about error trace without needing a full call-stack dump.
