@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/Start writing in this directory 1.md",
+                "file": "private/logging-errors-properly.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/Start writing in this directory 1.md",
+                "file": "private/logging-errors-properly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/Start writing in this directory 1.md",
+                "file": "private/logging-errors-properly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/Start writing in this directory 1.md"
+                "file": "private/logging-errors-properly.md"
               }
             }
           }
@@ -166,7 +166,7 @@
   "active": "1d1bedc63d3b15fe",
   "lastOpenFiles": [
     "knowledge-base/gitignore-file-to-keep-a-folder.md",
-    "private/Start writing in this directory 1.md",
+    "private/logging-errors-properly.md",
     "projects/bark/introduction.md",
     "knowledge-base",
     "projects/bark/index.md",
