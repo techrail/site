@@ -90,20 +90,9 @@ When I write a LMID in my log messages, I format it this way: `<ERR_LVL_>#<LMID>
 fmt.Println("E#1L0YN0 - User logged in:" + someUser.Id)
 fmt.Println("W#1L0YOX - User tried to access admin panel but was denied:" + someUser.Id)
 fmt.Println("P#1L0ZA3 - Could not connect to the main database!")
-fmt.Println("D#1L0ZA3 - Could not connect to the main database!")
+fmt.Println("D#1L1AB7 - Reached this point!")
 ```
 
-This format keeps my logs easily parsable. This is also the format that [[introduction|bark]] would use so that you can write just plain strings but they could be parsed before they get inserted in the datbase.
+This format keeps my logs easily parsable. This is also the format that [[introduction|bark]] would use so that you can write just plain strings but they could be parsed before they get inserted in the database.
 
-
-
-
-
-
-
-
-
-
-
-
-
+I hope this post helps you write better logs.
