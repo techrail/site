@@ -41,16 +41,14 @@ Summarising the requirements from the above section:
 
 1. Each log message should be **individually identifiable** across the codebase. 
 2. The information that helps identify a log message **should not change as the source file updates** - as new code is added (and sometimes old code removed), the error message should still be uniquely identifiable and thus, must not depend on line numbers in the source file.
-3. It should **contain some sort of log _level_** - It is one thing to record a user's ID when he signs in your logs and quite another to . Some log messages are more important than other log messages!
-4. Each log message should be able to carry enough info about error trace without needing a full stack trace dump.
+3. It should **contain some sort of log _level_** - It is one thing to record a user's ID when he signs in your logs and quite another to log the failure to connect to the database! Some log messages are more important than other log messages!
+4. Each log message should be able to **carry enough info about error trace without needing a full stack trace dump**.
 
 ## Introducing the Log Message Identifier (LMID)
-The way to fulfil the requirements we listed above, we need to attach a unique code to each log message. This code should have the following properties:
+The way to fulfil the requirements we listed above, we need to attach a unique code to each log message. Apart from the requirements above, it should also have the following properties:
 
-1. Should be unique across our codebase. 
-2. Must be easily obtainable - you can't really depend on a separate central database of unique codes before you actually get a simple log message identifier. It also removes the inhibitions in a developers mind from updating the LMID when he is copying the log with a piece of code from elsewhere!
-3. Must be short - If you have to dictate someone an error code over a phone, reciting a UUID in all its length and glory is a seriously bad idea. 
-4. Should not reveal any info about the code - it must not reveal any part of the architecture (such as line numbers, file or directory names etc.) of the code. 
+1. **Must be easily obtainable** - you can't really depend on a separate central database of unique codes before you actually get a simple log message identifier. It also removes the inhibitions in a developers mind from updating the LMID when he is copying the log with a piece of code from elsewhere!
+2. **Must be short** - If you have to dictate someone an error code over a phone, reciting a UUID in all its length and glory is a seriously bad idea. 
 
 ## How to obtain a LMID
 I use a small script to obtain a new LMID every time I need one. The script looks like this: 
@@ -93,7 +91,7 @@ When I write a LMID in my log messages, I format it this way: `<ERR_LVL_>#<LMID>
 
 **Examples (using golang's `fmt.Println` statements)**:
 
-```
+```go
 fmt.Println("E#1L0YN0 - User logged in:" + someUser.Id)
 fmt.Println("W#1L0YOX - User tried to access admin panel but was denied:" + someUser.Id)
 fmt.Println("P#1L0ZA3 - Could not connect to the main database!")
