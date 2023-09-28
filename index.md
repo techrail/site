@@ -27,7 +27,7 @@ Techrail mostly consists of a couple of experience developers and a few who are 
 
 ## Who all are invited?
 
-If you can code, test, design or document software, you are invited. If you aren't sure, and need mentoring or discussion, we would hear you and try to help you (irrespective of weather you wanna work on our projects or anything else). If you are just another user who isn't into software development process, you are invited too - you might be the user who can pinpoint our mistakes and bugs and give us the right questions to wonder about.
+If you can code, test, design or document software, you are invited. If you aren't sure, and need mentoring or discussion, we would hear you and try to help you (irrespective of whether you wanna work on our projects or anything else). If you are just another user who isn't into software development process, you are invited too - you might be the user who can pinpoint our mistakes and bugs and give us the right questions to wonder about.
 
 In short, as long as you are not a mischievous element, you are welcome. 
 
