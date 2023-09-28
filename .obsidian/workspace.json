@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge-base/logging-errors-properly.md",
+                "file": "projects/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "knowledge-base/logging-errors-properly.md",
+                "file": "projects/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "knowledge-base/logging-errors-properly.md",
+                "file": "projects/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "knowledge-base/logging-errors-properly.md"
+                "file": "projects/index.md"
               }
             }
           }
@@ -163,25 +163,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e29de8277f1aaa8d",
+  "active": "1d1bedc63d3b15fe",
   "lastOpenFiles": [
-    "knowledge-base/gitignore-file-to-keep-a-folder.md",
-    "knowledge-base/logging-errors-properly.md",
-    "projects/bark/introduction.md",
-    "knowledge-base",
-    "projects/bark/index.md",
-    "authors/vaibhav/01-about-me.md",
-    "authors/vaibhav/moving-to-quartz.md",
-    "private/Start writing in this directory.md",
-    "projects/index.md",
-    "templates/New Article Template.md",
-    "README.md",
     "index.md",
-    "knowledge-base/Untitled.md",
-    "knowledge-base",
-    "private/Untitled.md",
+    "README.md",
+    "authors/vaibhav/moving-to-quartz.md",
+    "templates/New Article Template.md",
     "templates",
+    "private/Start writing in this directory.md",
     "private",
+    "knowledge-base/logging-errors-properly.md",
+    "knowledge-base/gitignore-file-to-keep-a-folder.md",
+    "knowledge-base",
+    "authors/vaibhav/01-about-me.md",
+    "projects/bark/introduction.md",
+    "projects/bark/index.md",
+    "projects/index.md",
     "projects/bark",
     "projects",
     "authors/vaibhav",
