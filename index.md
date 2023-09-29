@@ -30,6 +30,8 @@ Techrail mostly consists of a couple of experience developers and a few who are 
 If you can code, test, design or document software, you are invited. If you aren't sure, and need mentoring or discussion, we would hear you and try to help you (irrespective of whether you wanna work on our projects or anything else). If you are just another user who isn't into software development process, you are invited too - you might be the user who can pinpoint our mistakes and bugs and give us the right questions to wonder about.
 
 In short, as long as you are not a mischievous element, you are welcome. 
+## If you are on mobile
+If you are on a mobile and viewing this site, the sidebar must be invisible to you. We are working on a fix to make it useful for you on mobile!
 
 You can visit our projects on [GitHub](https://github.com/techrail) or connect with us on [Discord](https://discord.gg/aKkWFghPrV).
 

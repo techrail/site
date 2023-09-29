@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "index.md"
               }
             }
           }
@@ -152,29 +152,30 @@
   },
   "active": "1df850af8ca63aad",
   "lastOpenFiles": [
+    "authors/vaibhav/01-about-me.md",
+    "authors/index.md",
+    "knowledge-base/gitignore-file-to-keep-a-folder.md",
+    "index.md",
+    "knowledge-base/logging-queries-in-postgresql.md",
+    "private/Start writing in this directory.md",
+    "README.md",
     "projects/devta/introduction.md",
     "projects/bark/introduction.md",
     "projects/index.md",
     "projects/devta",
     "projects/bark",
     "projects",
-    "knowledge-base/logging-queries-in-postgresql.md",
     "files/psql_show_config_file.jpg",
     "files",
     "authors/vaibhav/moving-to-quartz.md",
-    "authors/vaibhav/01-about-me.md",
     "authors/vaibhav",
     "authors",
     "private/quartz.layout.ts",
     "private/quartz.config.ts",
-    "index.md",
-    "README.md",
     "templates/New Article Template.md",
     "templates",
-    "private/Start writing in this directory.md",
     "private",
     "knowledge-base/logging-errors-properly.md",
-    "knowledge-base/gitignore-file-to-keep-a-folder.md",
     "projects/bark/index.md"
   ]
 }
