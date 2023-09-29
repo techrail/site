@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How to save PostgreSQL logs
 tags:
   - blog
@@ -48,7 +48,9 @@ Remember to read about what these mean in the config file. But in short, you hav
 There are a lot more options which control the behavior but the default ones are good enough for most needs.
 
 ## Don't forget to restart your server
-> [info]
+
+> [!info]+ Don't forget!
+> 
 > Remember to restart your PostgreSQL server for the settings to take effect.
 
 That should start logging your queries in the file and allow debugging your code better!

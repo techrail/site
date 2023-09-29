@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/logging-queries-in-postgresql.md",
+                "file": "knowledge-base/logging-queries-in-postgresql.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "private/logging-queries-in-postgresql.md",
+                "file": "knowledge-base/logging-queries-in-postgresql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "private/logging-queries-in-postgresql.md",
+                "file": "knowledge-base/logging-queries-in-postgresql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/logging-queries-in-postgresql.md"
+                "file": "knowledge-base/logging-queries-in-postgresql.md"
               }
             }
           }
@@ -168,7 +168,7 @@
     "files/psql_show_config_file.jpg",
     "files",
     "private/Start writing in this directory.md",
-    "private/logging-queries-in-postgresql.md",
+    "knowledge-base/logging-queries-in-postgresql.md",
     "projects/bark/introduction.md",
     "projects/bark/index.md",
     "projects/devta/introduction.md",
