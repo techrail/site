@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/bark/introduction.md",
+                "file": "private/logging-queries-in-postgresql.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/bark/introduction.md",
+                "file": "private/logging-queries-in-postgresql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/bark/introduction.md",
+                "file": "private/logging-queries-in-postgresql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/bark/introduction.md"
+                "file": "private/logging-queries-in-postgresql.md"
               }
             }
           }
@@ -165,10 +165,13 @@
   },
   "active": "e29de8277f1aaa8d",
   "lastOpenFiles": [
-    "projects/devta",
-    "projects/bark/index.md",
-    "projects/bark/introduction.md",
+    "files",
     "private/Start writing in this directory.md",
+    "private/logging-queries-in-postgresql.md",
+    "projects/bark/introduction.md",
+    "projects/bark/index.md",
+    "projects/devta/introduction.md",
+    "projects/devta",
     "projects/index.md",
     "index.md",
     "README.md",
