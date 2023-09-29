@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1d1bedc63d3b15fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "knowledge-base/logging-queries-in-postgresql.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "knowledge-base/logging-queries-in-postgresql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "knowledge-base/logging-queries-in-postgresql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "knowledge-base/logging-queries-in-postgresql.md"
               }
             }
           }
@@ -150,31 +163,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1df850af8ca63aad",
+  "active": "1d1bedc63d3b15fe",
   "lastOpenFiles": [
-    "projects/devta/introduction.md",
-    "projects/bark/introduction.md",
-    "projects/index.md",
-    "projects/devta",
-    "projects/bark",
-    "projects",
-    "knowledge-base/logging-queries-in-postgresql.md",
-    "files/psql_show_config_file.jpg",
-    "files",
-    "authors/vaibhav/moving-to-quartz.md",
-    "authors/vaibhav/01-about-me.md",
-    "authors/vaibhav",
-    "authors",
     "private/quartz.layout.ts",
     "private/quartz.config.ts",
+    "files/psql_show_config_file.jpg",
+    "files",
+    "private/Start writing in this directory.md",
+    "knowledge-base/logging-queries-in-postgresql.md",
+    "projects/bark/introduction.md",
+    "projects/bark/index.md",
+    "projects/devta/introduction.md",
+    "projects/devta",
+    "projects/index.md",
     "index.md",
     "README.md",
+    "authors/vaibhav/moving-to-quartz.md",
     "templates/New Article Template.md",
     "templates",
-    "private/Start writing in this directory.md",
     "private",
     "knowledge-base/logging-errors-properly.md",
     "knowledge-base/gitignore-file-to-keep-a-folder.md",
-    "projects/bark/index.md"
+    "knowledge-base",
+    "authors/vaibhav/01-about-me.md",
+    "projects/bark",
+    "projects",
+    "authors/vaibhav",
+    "authors"
   ]
 }
