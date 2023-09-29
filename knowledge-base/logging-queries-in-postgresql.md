@@ -34,7 +34,6 @@ log_disconnections = on
 log_statement = 'all'
 log_timezone = 'Asia/Kolkata'
 ```
-
 ## What do those options mean?
 Remember to read about what these mean in the config file. But in short, you have to focus on these: 
 
