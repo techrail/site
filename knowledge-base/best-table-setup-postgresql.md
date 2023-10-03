@@ -12,7 +12,9 @@ Let's take a moment to salute the hard work done by PostgreSQL developers around
 
 ![](files/postgresql-more-popular-than-mysql.png)
 
-So whatever I am going to say here is about PostgreSQL only but might apply to other databases as well (by changing the methods and data types accordingly). Also, a disclaimer - this is **my** setup. This is what **I** prefer to do. It _might not be perfect_. What you want and prefer to do might be totally different. Depending on your database of choice and expertise, you might be able to have a different (maybe even better) setup. Let's start with the typical problems.
+So whatever I am going to say here is about PostgreSQL only but might apply to other databases as well (by changing the methods and data types accordingly). Also, a disclaimer - this is **my** setup. This is what **I** prefer to do. It _might not be perfect_. What you want and prefer to do might be totally different. Depending on your database of choice and expertise, you might be able to have a different (maybe even better) setup. 
+
+Now, let's start with the typical problems.
 
 ## The problems (and the hints to solutions)
 ### The standard problem of timestamps
@@ -181,9 +183,10 @@ So every time, an `INSERT`, `DELETE` or `UPDATE` is performed on the table, a ne
 
 Now there is an interesting thing that you might have noticed. I named my trigger `z_audit_log`. I could have just called it `audit_log` or `audit_log_key_value` or `audit_log_trigger`; so why did I attach a `z_` to the beginning of the name? The reason for this is - we already have another trigger on the `key_value` table which is named as `update_updated_at_task`. If I were to name this new trigger any of the above options I just presented, it would be alphabetically _before_ this other trigger.
 
-There is something you must know - **Triggers in PostgreSQL on the same table are executed in their alphabetical order**. So in that case, this new trigger (which we have named `z_audit_log`) would get executed before the `update_updated_at_task` and that has an unwanted effect of updating the `updated_at` value _after_ logging the values in `audit_log` table and that makes the data inconsistent.
+> [!info]+ Something to remember! 
+> **Triggers in PostgreSQL on the same table are executed in their alphabetical order**. So in that case, this new trigger (which we have named `z_audit_log`) would get executed before the `update_updated_at_task` (if it were named any of the above values) and that has an unwanted effect of updating the `updated_at` value _after_ logging the values in `audit_log` table and that makes the data look erroneous and inconsistent.
 
 ## Conclusion
-Every application is different and the database design for all those needs are going to be different. But one thing is constant in all applications (as it is with every other thing in the universe too): change. Needs change and applications need to adapt. A good base setup that solves some basic issues that you are going to face as you move forward while staying flexible when you _really_ need is going to save you tons of time and effort as you move forward.
+Every application is different and the database design for all those needs are going to be different. But one thing is constant in all applications (as it is with every other thing in the universe too): change. Everything needs change and applications need to adapt with the growing changes. A good base setup that solves some basic issues that you are going to face as you move forward while staying flexible when you _really_ need is going to save you tons of time and effort as you move forward.
 
 I have learnt that this setup works well because of those hardships. I hope it saves some for you and lets you discover other and hopefully better problems.
