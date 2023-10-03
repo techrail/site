@@ -103,7 +103,7 @@ Now the other question - How do we preserve the history of certain tables. As yo
 
 So let's create the table first. Here is the SQL:
 
-```SQL
+```sql
 -- Table Definition
 CREATE TABLE IF NOT EXISTS audit_log  
 (  
