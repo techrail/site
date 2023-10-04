@@ -4,7 +4,6 @@ draft: false
 ---
 
 Techrail is a community of people who want to build something useful in the Open Source space. 
-
 ## A little history
 
 This community started off as a small set of about 10-12 people whom I (Vaibhav) contacted in a Discord Server. We came together to make the first version of Devta. Since I have been one of the people who got benefitted by Open Source, I wrote a post on Reddit requesting people to join us in making useful open source software while also getting experience and improving their profile. A lot of people joined and some of us have since then been working sincerely on a few ideas which we think fill an existing gap.
@@ -31,7 +30,9 @@ If you can code, test, design or document software, you are invited. If you aren
 
 In short, as long as you are not a mischievous element, you are welcome. 
 ## If you are on mobile
-If you are on a mobile and viewing this site, the sidebar must be invisible to you. We are working on a fix to make it useful for you on mobile!
+If you are on a mobile and viewing this site, the sidebar must be invisible to you. Here is the menu to guide you a bit with navigation: 
+
+1. 
 
 You can visit our projects on [GitHub](https://github.com/techrail) or connect with us on [Discord](https://discord.gg/aKkWFghPrV).
 
