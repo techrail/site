@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Authors of Techrail
+title: Authors
 tags:
   - blog
   - authors
