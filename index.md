@@ -32,7 +32,8 @@ In short, as long as you are not a mischievous element, you are welcome.
 ## If you are on mobile
 If you are on a mobile and viewing this site, the sidebar must be invisible to you. Here is the menu to guide you a bit with navigation: 
 
-1. 
+1. [[authors/index|Authors]] - Lists the authors who write here. 
+2. [Knowledge Base](/knowledge-base)
 
 You can visit our projects on [GitHub](https://github.com/techrail) or connect with us on [Discord](https://discord.gg/aKkWFghPrV).
 
