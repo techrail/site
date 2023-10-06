@@ -1,12 +1,8 @@
 ---
 draft: true
-title: How do we use Logs
+title: How do we use Logs - storage, speed, access and search patterns
 tags:
   - blog
   - vaibhav
 ---
-When you want to start writing a new content, you can copy this file in this same directory, give it a name and start writing. 
-
-Make sure you have set the **draft** property to true till the point you are ready to publish. 
-
-Once you are ready to publish, 
+Logs are of course important. We all know about that; had it been any less than important, there would not be so many logging solutions out there. We created [[projects/bark/introduction|bark]] to solve some problems with logging on a moderate scale. But this article is not about Bark. It is about logs themselves. How we store them, 
