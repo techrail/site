@@ -46,6 +46,7 @@ Coming back to the point - Bark is the response of a need - the need of having s
 7. Allows you to set retention policies for your logs your way (e.g. delete all `INFO` level logs from `MyService` that are more than 30 days old) automatically.
 8. Is Open Source and well-documented - so you can look under the hood and make changes as you deem fit without having to worry or wait.
 9. Has libraries in multiple languages allowing you to use a Bark server to be used from services written in different languages.
+10. Allows you to own your logs - no third party has your logs.
 
 While most of these are trust as of our current (version 1) release, there are things we are working on and have open issues for. 
 
