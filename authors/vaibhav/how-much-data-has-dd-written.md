@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How much data has dd written?
 tags:
   - blog
@@ -13,4 +13,7 @@ If you have used Linux for some time and have ever searched for solutions around
 
 In the past, `dd` would not show the details about the amount of data it had written. For that, you would have to go to an activity monitor that can show it. macOS's built-in Activity Monitor app does that. On Linux, you could use one of the various task managers available and on Windows you've had the "Resource Monitor" app for a while too.
 
-However, for most modern versions, you can just add the `status=progress` to the command to see the progress. 
+However, for most modern versions, you can just add the `status=progress` to the command to see the progress. You can see how it looks on mac (it looks the same on Linux too)
+
+![[dd-how-much-data-written.png]]
+I hope that helps!
