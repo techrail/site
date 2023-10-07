@@ -12,5 +12,7 @@ Right from the beginning the first use of logs for debugging our software to the
 ## Logs are text
 Almost all forms of logs are text. Logs can be stored as binary blobs in certain storage formats but they are almost always displayed as text. Logs do not contain images, binary blobs, videos etc. in almost all (if not _all_) cases. Maybe references to such entities, but not those entities themselves. 
 
-You would probably never export or view them as image file, PDFs, videos or anything like that. Hence, logs are almost always in text format - written as text and viewed as text as well.
+You would probably never export or view them as image file, PDFs, videos or anything like that. Hence, logs are almost always in text format. Written as text. Viewed as text.
 
+## Logs are timestamped
+Except the times when you are debugging, you almost always want to know _what happened and **when**_. Hence, most of the time, you need your logs to
