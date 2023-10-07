@@ -15,4 +15,4 @@ Almost all forms of logs are text. Logs can be stored as binary blobs in certain
 You would probably never export or view them as image file, PDFs, videos or anything like that. Hence, logs are almost always in text format. Written as text. Viewed as text.
 
 ## Logs are timestamped
-Except the times when you are debugging, you almost always want to know _what happened and **when**_. Hence, most of the time, you need your logs to
+Except the times when you are debugging, you almost always want to know _what happened and **when**_. Hence, most of the time, you need your logs to be timestamped. If you look at the logs emitted by some of the popular libraries in various frameworks - Spring, Laravel, Ruby on Rails etc. - they always contain timestamps. It is important because in a situation when you have to run multiple instances of your service, you need to know what was emitted by which instance of the service. They also serve you (sometimes) in determining how long did the previous step take. 
