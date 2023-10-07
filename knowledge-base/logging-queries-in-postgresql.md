@@ -6,6 +6,7 @@ tags:
   - vaibhav
   - postgresql
   - logging
+  - wiki
 ---
 When developing a backend app (since I work mostly on backend), calling a database is quite a common action that we developers take. As developers, we sometimes use libraries and ORMs to make our lives easy because they help us do more in less time. But sometimes, when we need to debug why something is not working, we need to get into details.
 

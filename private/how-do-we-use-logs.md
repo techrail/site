@@ -2,8 +2,10 @@
 draft: true
 title: How do we use Logs - storage, speed, access and search patterns
 tags:
-  - blog
   - vaibhav
+  - bark
+  - logging
+  - wiki
 ---
 Logs are of course important. We all know about that; had it been any less than important, there would not be so many logging solutions out there. We created [[projects/bark/introduction|bark]] to solve some problems with logging on a moderate scale. But this article is not about Bark. It is about logs themselves.
 
@@ -33,6 +35,11 @@ In most cases (when we are not debugging), we look for occurrences of log messag
 ## Log searches are almost always based on exact strings or phrases
 When you search for something on a typical text searching system (e.g. Google or Confluence), you are looking for _related words as well_. For example, if you search Google for the word "butterfly", it would also give you results with the word "butterflies". Or if you search for "person", it might match a web page that contains only the word "people". Such _full-text search (FTS)_ capabilities make these systems amazing and really helpful.
 
-But imagine that you are searching for the line `User is not available` and expect to get a handful of results, your log system decides to be _helpful_ and gives you do
+But imagine that you are searching for the line `User is not available` and expect to get a handful of results, your log system decides to be _helpful_ and gives you search results for the line `Users are not available` and there are hundreds of those lines in the result. See the problem?
+
+Logs mostly are searched based on exact terms and all the FTS magic is more of a hindrance for log search system than they are a help.
+
+## Conclusion
+Logs are textual data. But the access patterns and requirements for logs is not the same as your normal text data like a blog post or a user profile. There are differences in the way they are created, stored, accessed and searched. Most logs have 
 
 

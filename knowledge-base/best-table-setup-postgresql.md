@@ -2,9 +2,9 @@
 draft: false
 title: The best setup for PostgreSQL Tables
 tags:
-  - blog
   - vaibhav
   - postgresql
+  - wiki
 ---
 I have been interested into backend since college and I have admired PostgreSQL as a database since the beginning. I realised why I would use it over other offerings (mostly MySQL because as a student I could not afford any commercial ones anyway) and did not look back much. I have been coding backends for food since at least 10 years now and am biased towards PostgreSQL to an extent that it is the only SQL Database that I use in my projects. I am comfortable with its speed, feature-set, license, release-cycle etc. Maybe I am just way too accustomed to all of it. By the way, PostgreSQL just took over MySQL as the most preferred database for Professional Developers and so heavily, that the number actually outweighs every other database in _All Respondents_ category as well.
 
