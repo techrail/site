@@ -1,6 +1,6 @@
 ---
 draft: false
-title: How do we use Logs - storage, speed, access and search patterns
+title: The way we use logs
 tags:
   - vaibhav
   - bark
