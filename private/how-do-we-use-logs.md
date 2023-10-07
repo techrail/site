@@ -26,4 +26,8 @@ Not everything that is happening is equally important. For example, it is one th
 Ask yourself - do you ever really _want_ to go look into logs? No. We sometimes _need_ to, but we almost never want to. We want to send a log on its way and then forget about it. _We only look in there when we need to trace a problem._ Looking into logs is probably no one's hobby or favourite time-pass activity.
 
 ## Logs are often not read individually
-When we look at logs, we hardly, if ever want to look at a single line of log. We want to
+When we look at logs, we hardly, if ever want to look at a single line of log. We usually look at a portion of a log file (or log stream). Sometimes we look for logs by searching for a specific piece of text in there but we almost never actually check a Log entry's ID and load it again.
+
+In most cases (when we are not debugging), we look for occurrences of log messages containing a particular text or that occurred in a certain time range. Other attributes such as severity, source etc. can also be added in that query. But the statement still remains true - _we do not access logs individually_. We mostly search for them in a large number of log messages.
+
+

@@ -51,7 +51,9 @@ Coming back to the point - Bark is the response of a need - the need of having s
 While most of these are trust as of our current (version 1) release, there are things we are working on and have open issues for. 
 
 ## A little bit more!
-Us developers are careless at times, especially when we are under pressure. We tend to copy-paste log messages around from well-working piece of code and then leave them as it is. For that reason, we support the use of a [[logging-errors-properly|LMID or CODE]] in Bark. We highly recommend that you use LMIDs to make your logs more useful. 
+Us developers are careless at times, especially when we are under pressure. We tend to copy-paste log messages around from well-working piece of code and then leave them as it is. For that reason, we support the use of a [[logging-errors-properly|LMID or CODE]] in Bark. We highly recommend that you use LMIDs to make your logs more useful.
+
+
 
 We hope you will love using Bark as much as we have loved creating it (or more).
 
