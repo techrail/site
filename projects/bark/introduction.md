@@ -23,7 +23,7 @@ It was at this time that we realised that there are nearly no solutions that act
 > We were able to setup a logging solution using a pretty well known logging stack within the timeframe. However, none of the backend team felt confident with "what happens when things go down" because we don't have enough expertise with the setup or its components yet.
 
 ## How do we access the Logs?
-Logs are a little different than your typical relational data. The entire scope of that discussion is beyond the scope of this article, but in general, here are the major differences: 
+Logs are a little different than your typical relational data. The entire scope of that discussion is beyond the scope of this article. For that you can go through [[how-do-we-use-logs|this article]]. However, in general, here are the major differences: 
 
 1. Logs are mostly text.
 2. Logs are almost always time-stamped.

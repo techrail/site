@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How do we use Logs - storage, speed, access and search patterns
 tags:
   - vaibhav
@@ -40,6 +40,8 @@ But imagine that you are searching for the line `User is not available` and expe
 Logs mostly are searched based on exact terms and all the FTS magic is more of a hindrance for log search system than they are a help.
 
 ## Conclusion
-Logs are textual data. But the access patterns and requirements for logs is not the same as your normal text data like a blog post or a user profile. There are differences in the way they are created, stored, accessed and searched. Most logs have 
+Logs are textual data. But the access patterns and requirements for logs is not the same as your normal text data like a blog post or a user profile. There are differences in the way they are created, stored, accessed and searched. When we want to design a logging system, we have to ensure that we are building things the way they would be used. That they contain the necessary features and only those features that make sense in that context.
+
+When we thought of [[projects/bark/introduction|bark]], we wanted to ensure that we were building things the way they would be used.
 
 
