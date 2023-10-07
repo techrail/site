@@ -30,4 +30,9 @@ When we look at logs, we hardly, if ever want to look at a single line of log. W
 
 In most cases (when we are not debugging), we look for occurrences of log messages containing a particular text or that occurred in a certain time range. Other attributes such as severity, source etc. can also be added in that query. But the statement still remains true - _we do not access logs individually_. We mostly search for them in a large number of log messages.
 
+## Log searches are almost always based on exact strings or phrases
+When you search for something on a typical text searching system (e.g. Google or Confluence), you are looking for _related words as well_. For example, if you search Google for the word "butterfly", it would also give you results with the word "butterflies". Or if you search for "person", it might match a web page that contains only the word "people". Such _full-text search (FTS)_ capabilities make these systems amazing and really helpful.
+
+But imagine that you are searching for the line `User is not available` and expect to get a handful of results, your log system decides to be _helpful_ and gives you do
+
 

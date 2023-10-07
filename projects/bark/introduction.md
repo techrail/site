@@ -53,7 +53,7 @@ While most of these are trust as of our current (version 1) release, there are t
 ## A little bit more!
 Us developers are careless at times, especially when we are under pressure. We tend to copy-paste log messages around from well-working piece of code and then leave them as it is. For that reason, we support the use of a [[logging-errors-properly|LMID or CODE]] in Bark. We highly recommend that you use LMIDs to make your logs more useful.
 
-
+> [!info] We use the terms _log message_ and _log statements_ interchangeably on this site and in code. They both mean the same - a single line of log string. 
 
 We hope you will love using Bark as much as we have loved creating it (or more).
 
