@@ -27,7 +27,7 @@ Logs are a little different than your typical relational data. The entire scope 
 
 1. Logs are mostly text.
 2. Logs are almost always time-stamped.
-3. Logs have a _severety_.
+3. Logs have a _severity_.
 4. Logs are written at a rapid rate but read rarely.
 5. Logs are almost never supposed to be accessed "individually", but searched based on one of the attributes, often sorted by timestamp.
 6. Log searches are almost always based on "exact" strings and often does not need _variations_. 

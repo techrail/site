@@ -20,5 +20,7 @@ Except the times when you are debugging, you almost always want to know _what ha
 When we use plaintext files for storing logs, then the order of the logs themselves tell us the order and that's usually enough. However, as the requirement grows, we often find ourselves needing to know when a certain thing happened.
 
 ## Logs have a severity
-Not everything that is happening is equally important. For example, it is one thing that a user has entered a wrong password and it is whole another level of important if your application is not able to connect to the cache or the database! So each log has a _severity_ level, indicating how important it is. Most logging libraries use anywhere between 3 to 10 logging levels, sometimes as numbers, sometimes as text.
+Not everything that is happening is equally important. For example, it is one thing that a user has entered a wrong password and it is whole another level of important if your application is not able to connect to the cache or the database! So each log has a _severity_ level, indicating how important it is. Most logging libraries use anywhere between 3 to 10 logging levels, sometimes as numbers, sometimes as text, but they are there!
 
+## Logs are written more than they are read
+Ask yourself - do you ever really _want_ to go look into logs? No. W
