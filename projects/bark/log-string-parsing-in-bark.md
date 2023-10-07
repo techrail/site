@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Parsing log strings in Bark
 tags:
   - blog
