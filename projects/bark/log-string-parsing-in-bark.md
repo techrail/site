@@ -6,7 +6,7 @@ tags:
   - vaibhav
   - bark
 ---
-Here is how it behaves: 
+Bark contains a client library which can be imported in a Golang project. Now, logs in bark are actually Here is how it behaves: 
 
 | String sent                                       | Level    | Log Message ID | Log message                                       |
 | ------------------------------------------------- | -------- | -------------- | ------------------------------------------------- |
