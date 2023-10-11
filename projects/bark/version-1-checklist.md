@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Version 1 release checklist
 tags:
   - bark
