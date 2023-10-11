@@ -6,7 +6,7 @@ tags:
   - vaibhav
   - bark
 ---
-Bark contains a client library which can be imported in a Golang project. Now, logs in bark are actually structured. They have a Level, a [[logging-errors-properly|LMID]] Here is how it behaves: 
+Bark contains a client library which can be imported in a Golang project. Now, logs in bark are actually structured. They have a Level, a [[logging-errors-properly|LMID]] and the actual message. So we wrote a parse which tries parse the log message and if it fits the formats, it would set the level and Here is how it behaves: 
 
 | String sent                                       | Level    | Log Message ID | Log message                                       |
 | ------------------------------------------------- | -------- | -------------- | ------------------------------------------------- |
