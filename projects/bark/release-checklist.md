@@ -4,6 +4,8 @@ title: Release checklist for Bark
 tags:
   - bark
   - roadmap
+date: 2023-10-04
+updated: 2023-10-10
 ---
 1. Docker Container (multi-platform build)
 2. Binaries for AMD64, ARM64 (ARM8) for linux. Windows and macOS would be nice too. (Use cross compilation)

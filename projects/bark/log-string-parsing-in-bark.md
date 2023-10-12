@@ -5,6 +5,8 @@ tags:
   - blog
   - vaibhav
   - bark
+date: 2023-10-04
+updated: 2023-10-10
 ---
 Bark contains a client library which can be imported in a Golang project. Now, logs in bark are actually structured. They have a Level, a [[logging-errors-properly|LMID]] and the actual message. So we wrote a parser which tries parse the log message and if it fits the formats, it would set the level and LMID along with the Log message. 
 
