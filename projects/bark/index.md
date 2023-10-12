@@ -1,6 +1,6 @@
 ---
 draft: false
-title: What is Bark?
+title: Bark
 tags:
   - bark
   - logging

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Introduction to Devta
+title: Devta
 tags:
   - blog
   - vaibhav
