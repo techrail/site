@@ -17,9 +17,17 @@ The general format of the Log message which the parser understands (and expects)
 
 In this format:
 
-1. `LVL_CHAR`: is a _single character_ indicating the log level. The accepted characters are:
-2. `LMID`: Is the Log Message Identifier. It is separated on the left from `LVL_CHAR` by a `#` and on the right from the `LOG_MESSAGE` by a ` - `. The spaces around `-` are optional but recommended to be left as it is.
-3. `LOG_MESSAGE`: This is the actual Log Message which the user wants to save.
+1. `LVL_CHAR`: is a _single character_ indicating the log level. The accepted characters are basically the first character of their names:
+	- `P`: Panic
+	- `A`: Alert
+	- `E`: Error
+	- `W`: Warning
+	- `N`: Notice
+	- `I`: Info
+	- `D`: Debug
+	- Anything else will automatically 
+1. `LMID`: Is the Log Message Identifier. It is separated on the left from `LVL_CHAR` by a `#` and on the right from the `LOG_MESSAGE` by a ` - `. The spaces around `-` are optional but recommended to be left as it is.
+2. `LOG_MESSAGE`: This is the actual Log Message which the user wants to save.
 
 ## Examples
 
