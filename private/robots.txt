@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: AdIdxBot
+Disallow: /
+
+User-agent: BingPreview
+Disallow: /
+
+User-agent: MicrosoftPreview
+Disallow: /
+
+User-agent: MicrosoftPreview
+Disallow: /
