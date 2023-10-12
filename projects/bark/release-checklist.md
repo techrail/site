@@ -1,6 +1,6 @@
 ---
 draft: true
-title: Release checklist
+title: Release checklist for Bark
 tags:
   - bark
   - roadmap
