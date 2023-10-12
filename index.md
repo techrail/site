@@ -35,7 +35,9 @@ If you are on a mobile and viewing this site, the sidebar must be invisible to y
 1. [[authors/index|Authors]] - Lists the authors who write here. 
 2. [Knowledge Base](/knowledge-base) - Some useful articles related to tech. 
 3. [[projects/index|Projects]] - Some projects under Techrail umbrella which are listed on this site.
-4. 
+
+> [!info]+ Important note about search engines
+> We have placed rules in [our robots.txt](/robots.txt) that disallow ChatGPT and Bing crawlers from accessing our content. We have done so because we are against the plagiarism done by ChatGPT and Microsoft (since OpenAI, the parent company of ChatGPT is 49% owned by Microsoft) from the content world over to make a commercial product without consent or awareness of authors worldwide. And since Microsoft owns almost half of OpenAI and the terms of cooperation between them are unknown, we have disallowed all known Microsoft crawlers from this site. 
 
 You can visit our projects on [GitHub](https://github.com/techrail) or connect with us on [Discord](https://discord.gg/aKkWFghPrV).
 
