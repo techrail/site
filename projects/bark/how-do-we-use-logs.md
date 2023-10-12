@@ -45,5 +45,3 @@ Logs mostly are searched based on exact terms and all the FTS magic is more of a
 Logs are textual data. But the access patterns and requirements for logs is not the same as your normal text data like a blog post or a user profile. There are differences in the way they are created, stored, accessed and searched. When we want to design a logging system, we have to ensure that we are building things the way they would be used. That they contain the necessary features and only those features that make sense in that context.
 
 When we thought of [[projects/bark/index|bark]], we wanted to ensure that we were building things the way they would be used.
-
-
