@@ -25,9 +25,10 @@ In this format:
 	- `N`: Notice
 	- `I`: Info
 	- `D`: Debug
-	- Anything else will automatically 
+	- Anything else will automatically be set to the default log level set by the user when creating the client
 1. `LMID`: Is the Log Message Identifier. It is separated on the left from `LVL_CHAR` by a `#` and on the right from the `LOG_MESSAGE` by a ` - `. The spaces around `-` are optional but recommended to be left as it is.
 2. `LOG_MESSAGE`: This is the actual Log Message which the user wants to save.
+
 
 ## Examples
 
