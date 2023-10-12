@@ -15,7 +15,7 @@ The general format of the Log message which the parser understands (and expects)
 <LVL_CHAR>#<LMID> - <LOG_MESSAGE>
 ```
 
-In this format:
+These fields are:
 
 1. `LVL_CHAR`: is a _single character_ indicating the log level. The accepted characters are basically the first character of their names:
 	- `P`: Panic
@@ -25,11 +25,15 @@ In this format:
 	- `N`: Notice
 	- `I`: Info
 	- `D`: Debug
-	- Anything else will automatically be set to the default log level set by the user when creating the client
-1. `LMID`: Is the Log Message Identifier. It is separated on the left from `LVL_CHAR` by a `#` and on the right from the `LOG_MESSAGE` by a ` - `. The spaces around `-` are optional but recommended to be left as it is.
-2. `LOG_MESSAGE`: This is the actual Log Message which the user wants to save.
+2. `LMID`: Is the Log Message Identifier. It is separated on the left from `LVL_CHAR` by a `#` and on the right from the `LOG_MESSAGE` by a ` - `. The spaces around `-` are optional but recommended to be left as it is.
+3. `LOG_MESSAGE`: This is the actual Log Message which the user wants to save.
 
+It is worth noting that:
 
+- If the `LVL_CHAR` is set to anything else, it will automatically be set to the default log level set by the user when creating the client. 
+- `<LVL_CHAR>#` (the `LVL_CHAR` along with `#`) is optional. When it is missing, the default log level will be used instead.
+
+It is best to demonstrate the 
 ## Examples
 
 Here is how it behaves: 
@@ -54,4 +58,5 @@ Here is how it behaves:
 | `#LMIDINTHISCASEISVERYVERYLONG - Log message16`   | `INFO`   | `000000`       | `#LMIDINTHISCASEISVERYVERYLONG - Log message16`   |
 | `#LMID17 - Log message17`                         | `INFO`   | `000000`       | `#LMID17 - Log message17`                         |
 | `D#LMID18 - Log message18`                        | `DEBUG`  | `LMID18`       | `Log message18`                                   |
+| `D # LMID19 - Debug message`                      | `DEBUG`  | `LMID19`       |                                                   |
 
