@@ -60,7 +60,7 @@ Here is how it behaves with various inputs:
 | `#LMID17 - Log message17`                         | `INFO`   | `000000`       | `#LMID17 - Log message17`                         |
 | `D#LMID18 - Log message18`                        | `DEBUG`  | `LMID18`       | `Log message18`                                   |
 | `D # LMID19 - Log message19`                      | `DEBUG`  | `LMID19`       | `Log message19`                                   |
-| `` (_blank string_)                               | `INFO`   | `000000`       | ``                                                |
-| ` ` (_whitespace_)                                | `INFO`   | `000000`       | ``                                                |
+| (_blank string_)                                  | `INFO`   | `000000`       | (blank string)                                    |
+| ` ` (_whitespace_)                                | `INFO`   | `000000`       | (blank string)                                    | 
 
 

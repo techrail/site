@@ -6,6 +6,7 @@ tags:
   - bark
   - logging
   - wiki
+date: 2023-10-04
 ---
 Logs are of course important. We all know about that; had it been any less than important, there would not be so many logging solutions out there. We created [[projects/bark/introduction|bark]] to solve some problems with logging on a moderate scale. But this article is not about Bark. It is about logs themselves.
 
