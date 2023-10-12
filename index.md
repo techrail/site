@@ -33,7 +33,9 @@ In short, as long as you are not a mischievous element, you are welcome.
 If you are on a mobile and viewing this site, the sidebar must be invisible to you. Here is the menu to guide you a bit with navigation: 
 
 1. [[authors/index|Authors]] - Lists the authors who write here. 
-2. [Knowledge Base](/knowledge-base)
+2. [Knowledge Base](/knowledge-base) - Some useful articles related to tech. 
+3. [[projects/index|Projects]] - Some projects under Techrail umbrella which are listed on this site.
+4. 
 
 You can visit our projects on [GitHub](https://github.com/techrail) or connect with us on [Discord](https://discord.gg/aKkWFghPrV).
 

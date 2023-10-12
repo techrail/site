@@ -7,6 +7,8 @@ tags:
   - golang
 date: 2023-10-04
 updated: 2023-10-10
+aliases:
+  - introduction
 ---
 Bark is a small logging server that is supposed to fill in the void between **plaintext log files** and **Terabyte scale,  Application Performance Monitoring and Log Aggregation and analytics solutions for enterprises**. 
 
