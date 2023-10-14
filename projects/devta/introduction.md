@@ -1,12 +1,10 @@
 ---
-draft: true
-title: Base64 Encoder and Decoder
+draft: false
+title: Devta
 tags:
   - blog
   - vaibhav
   - devta
-aliases:
-  - introduction
 ---
 One of the most catchy names out there for Indians under the umbrella of **Techrail** is _**Devta**_. The word **Devta** in most Indian languages means _Divine Being_ - beings that are helpful in nature and usually have divine/magical powers.
 
