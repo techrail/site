@@ -59,6 +59,9 @@ I use a small script to obtain a new LMID every time I need one. The script look
 printf "$(([##36]$(date -u +%s) - 1600000000))" | pbcopy
 ```
 
+> [!info]+ Getting LMIDs from the web!
+> Setting up scripts and shortcuts and so on might not be what you love. Don't worry, we have a [dedicated page](https://devta.techrail.in/lmid) to get LMIDs, built and hosted in our other project [[projects/devta/introduction|Devta]] where you get the LMIDs that update every second! That page would also give you LMIDs for different Log Levels supported by [[projects/bark/introduction|Bark]]!
+
 What does this shell script do?  The first line `#!/usr/bin/env zsh` indicates that it is a ZSH script. I mostly code on a macOS. ZSH is always available on macOS. On every linux machine I use for coding also has ZSH on it. It goes without saying that ZSH is required for this script. The second line is where the action happens: 
 
 1. `$(date -u +%s)` takes the current [UNIX Timestamp](https://en.wikipedia.org/wiki/Unix_time) value for UTC.
