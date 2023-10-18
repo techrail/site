@@ -6,4 +6,7 @@ tags:
   - vaibhav
   - bark
 ---
-Bark uses 7 different log levels and there is a reason for that. 
+Bark uses 7 different log levels. 
+
+1. Panic
+2. 
