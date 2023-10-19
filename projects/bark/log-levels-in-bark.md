@@ -10,6 +10,9 @@ One of the main changes in Go version 1.21 was the inclusion of the `log/slog` p
 
 The most important of these is the timestamp which is pretty easy to implement with a simple wrapper function. Severity levels, often referred to as "log levels" or just "levels" is a little bit more complicated than that.
 
+> [!info]+ [[projects/bark/introduction|what-is-bark]] is a structured logging library that can use `log/bark`. 
+
+
 ## Slog Levels
 The slog library by default uses 4 logging levels which are: Debug, Info, Warn and Error. Now that is usually fine. Typically: 
 
