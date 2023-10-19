@@ -25,7 +25,7 @@ So far so good. But the problem usually starts near the _Warning_ log level, esp
 
 As you meet more such scenarios, it becomes abundantly evident that just the 4 levels (3, if you keep the _Debug_ level separate from the rest) are not enough, especially when we are logging events that might indicate a problem
 ## Bark Log Levels
-Bark uses 7 different log levels (including the _debug_ level). Why 7? Because 10 is way too much and 3 is just not enough. 5 is the sweet spot but wasn't quite enough to adjust some special use cases. So here are the
+Bark uses 7 different log levels (including the _debug_ level). Why 7? Because 10 is way too much and 3 is just not enough. 5 is the sweet spot but wasn't quite enough to adjust some special use cases. So here are the levels that we decided to put into Bark and what they mean.
 
-1. Panic
-2. 
+1. **Panic**: This is the error message which is put out right before a program crashes or has to be stopped because of a fatal error.
+2. **Alert**: This is a special log level, separate from the rest in the sense that Bark allows you to write and attach a _hook_ function 
