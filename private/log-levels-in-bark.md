@@ -23,10 +23,9 @@ So far so good. But the problem usually starts near the _Warning_ log level, esp
 - For a _public website_, a user entering a wrong password can be more like an _Info_ or a _Warning_ level, indicating that a user entered a wrong password - which is a fairly common event. But on a _controlled intranet site_ where the user's browser is known to have a password manager plugin auth autofill features enabled, this can be a more severe problem, especially when repeated. So what should I, as an implementor/develop of such a system call it? Just _warning_, or maybe an error; but that's not an error! Interesting dilemma!
 - Not being able to connect to the cache can either be a passable problem which does not cause much of an issue or it can be fatally problematic for a high-traffic website. So when your service discovers that it is not able to connect to the cache, what should this event be logged as? A Warning or an Error?
 
-As you meet more such scenarios, it becomes abundantly evident that just the 4 levels (3, if you keep )
+As you meet more such scenarios, it becomes abundantly evident that just the 4 levels (3, if you keep the _Debug_ level separate from the rest) are not enough, especially when we are logging events that might indicate a problem
 ## Bark Log Levels
-
-Bark uses 7 different log levels. 
+Bark uses 7 different log levels (including the _debug_ level). Why 7? Because 10 is way too much and 3 is just not enough. 5 is the sweet spot but wasn't quite enough to adjust some special use cases. So here are the
 
 1. Panic
 2. 
