@@ -1,6 +1,6 @@
 ---
 draft: true
-title: How many severity levels are good enough?
+title: The 7 levels of log severity
 tags:
   - blog
   - vaibhav
@@ -8,11 +8,9 @@ tags:
 ---
 One of the main changes in Go version 1.21 was the inclusion of the `log/slog` package which could perform _structured logging_. Structured logging refers to attaching some structure to logs and usually that means attaching a _severity level_, a timestamp and maybe other bits of information. 
 
-The most important of these is the timestamp which is pretty easy to implement with a simple wrapper function. Severity levels, often referred to as "log levels" or just "levels" is a little bit more complicated than that.
+> [!info]+ [[projects/bark/introduction|Bark]] is a structured logging library that can use `log/bark`. 
 
-> [!info]+ [[projects/bark/introduction|what-is-bark]] is a structured logging library that can use `log/bark`. 
-
-
+The most important of these is the timestamp which is pretty easy to implement with a simple wrapper function. Severity levels, often referred to as "log levels" or just "levels" is a little bit more complicated than that. Let's explore the levels in `log/slog`
 ## Slog Levels
 The slog library by default uses 4 logging levels which are: Debug, Info, Warn and Error. Now that is usually fine. Typically: 
 
