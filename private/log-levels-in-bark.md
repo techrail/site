@@ -6,11 +6,19 @@ tags:
   - vaibhav
   - bark
 ---
-One of the main changes in Go version 1.21 was the inclusion of the `log/slog` package which could perform _structured logging_. The slog library by default uses 4 logging levels which are: Debug, Info, Warn and Error. Now that is usually fine. Typically: 
+One of the main changes in Go version 1.21 was the inclusion of the `log/slog` package which could perform _structured logging_. Structured logging refers to attaching some structure to logs and usually that means attaching a _severity level_, a timestamp and maybe other bits of information. 
+
+The most important of these is the timestamp which is pretty easy to implement with a simple wrapper function. Severity levels, often referred to as "log levels" or just "levels" is a little bit more complicated than that.
+
+## Slog Levels
+The slog library by default uses 4 logging levels which are: Debug, Info, Warn and Error. Now that is usually fine. Typically: 
 
 - _Debug_ log level is used for collecting details which can carry sensitive information and these can be pretty verbose; at least that's how they are meant to be used.
 - _Info_ log level is used for things that don't represent any problem but are worth being collected in a log. A good example would be something like a user has logged in, or that a report has been generated.
-- _Warn_ (or _warning_)
+- _Warn_ (or _warning_) log levels usually indicate something which is not right but can be ignored for now because they don't represent an urgent or fatal problem.
+- _Error_ level usually indicate that there was some error. 
+
+## Bark Log Levels
 
 Bark uses 7 different log levels. 
 
