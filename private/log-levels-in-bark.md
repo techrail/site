@@ -25,7 +25,9 @@ So far so good. But the problem usually starts near the _Warning_ log level, esp
 
 As you meet more such scenarios, it becomes abundantly evident that just the 4 levels (3, if you keep the _Debug_ level separate from the rest) are not enough, especially when we are logging events that might indicate a problem
 ## Bark Log Levels
-Bark uses 7 different log levels (including the _debug_ level). Why 7? Because 10 is way too much and 3 is just not enough. 5 is the sweet spot but wasn't quite enough to adjust some special use cases. So here are the levels that we decided to put into Bark and what they mean.
+Bark uses 7 different log levels (including the _debug_ level). Why 7? Because 10 is way too much and 3 is just not enough. 5 is the sweet spot but wasn't quite enough to adjust some special use cases. So here are the levels, in decreasing order of severity, that we decided to put into Bark and what they mean.
 
 1. **Panic**: This is the error message which is put out right before a program crashes or has to be stopped because of a fatal error.
-2. **Alert**: This is a special log level, separate from the rest in the sense that Bark allows you to write and attach a _hook_ function 
+2. **Alert**: This log level indicates a severe error and is a special log level, separate from the rest in the sense that Bark allows you to write and attach a _hook_ function which can be used to send an alert to a third party service (maybe trigger an email, send a slack or discord message or dispatch a SMS or something similar to alert the developers or site reliability engineers). We will write an article around how to use them.
+3. **Error**: This level is for errors which should be fixed ASAP. They are to be used when it is not the end user's fault that triggered it (for example, a user entering a wrong password). 
+4. **Warning**: This level is for issues that are not causing any functional problems whatsoever but should be tended to whenever there is time. For example, when you are using a deprecated API and
