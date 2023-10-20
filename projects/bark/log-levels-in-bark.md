@@ -36,4 +36,4 @@ Bark uses 7 different log levels (including the _debug_ level). Why 7? Because 1
 6. **Debug**: This is the same as any logging library - to be used for times when you need to debug through a flow, usually when developing or testing an application rather than in production.
 
 ### Debug by default!
-A lot of logging libraries, including some famous ones, do not allow you to print the debug messages by default, especially under their default `production` configuration. While this is a good and mostly a desired effect, it can be a source of trouble 
+A lot of logging libraries, including some famous ones, do not allow you to print the debug messages by default, especially under their default `production` configuration. While this is a good and mostly a desired effect, it can be a source of trouble when the user expects that the log message would show up when the code is running in production as well but it does not. Hence, Bark client inverts the idea. Instead of disabling the Debug level logs, it enables them everywhere. The choice to disable Debug messages is explicit and must be enabled by calling the 
