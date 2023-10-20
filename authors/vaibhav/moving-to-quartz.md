@@ -14,4 +14,4 @@ I have been using Obsidian since quite some time and I have been tempted to buy 
 
 But it was costly.
 
-However, I just stumbled upon Quartz which does the same thing (more or less). So I am thinking to move my personal blog content here! In addition I wanna use it for documenting [Techrail project](https://github.com/techrail) related stuff too, for example, some extra documentation, details or maybe tutorials about [[projects/bark/introduction|bark]] can be put up here.
+However, I just stumbled upon Quartz which does the same thing (more or less). So I am thinking to move my personal blog content here! In addition I wanna use it for documenting [Techrail project](https://github.com/techrail) related stuff too, for example, some extra documentation, details or maybe tutorials about [[projects/bark/01-introduction|bark]] can be put up here.

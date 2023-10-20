@@ -60,7 +60,7 @@ printf "$(([##36]$(date -u +%s) - 1600000000))" | pbcopy
 ```
 
 > [!info]+ Getting LMIDs from the web!
-> Setting up scripts and shortcuts and so on might not be what you love. Don't worry, we have a [dedicated page](https://devta.techrail.in/lmid) to get LMIDs, built and hosted in our other project [[projects/devta/introduction|Devta]] where you get the LMIDs that update every second! That page would also give you LMIDs for different Log Levels supported by [[projects/bark/introduction|Bark]]!
+> Setting up scripts and shortcuts and so on might not be what you love. Don't worry, we have a [dedicated page](https://devta.techrail.in/lmid) to get LMIDs, built and hosted in our other project [[projects/devta/01-introduction|Devta]] where you get the LMIDs that update every second! That page would also give you LMIDs for different Log Levels supported by [[projects/bark/01-introduction|Bark]]!
 
 What does this shell script do?  The first line `#!/usr/bin/env zsh` indicates that it is a ZSH script. I mostly code on a macOS. ZSH is always available on macOS. On every linux machine I use for coding also has ZSH on it. It goes without saying that ZSH is required for this script. The second line is where the action happens: 
 
@@ -102,6 +102,6 @@ fmt.Println("P#1L0ZA3 - Could not connect to the main database!")
 fmt.Println("D#1L1AB7 - Reached this point!")
 ```
 
-This format keeps my logs easily parsable. This is also the format that [[projects/bark/introduction|bark]] would use so that you can write just plain strings but they could be parsed before they get inserted in the database.
+This format keeps my logs easily parsable. This is also the format that [[projects/bark/01-introduction|bark]] would use so that you can write just plain strings but they could be parsed before they get inserted in the database.
 
 I hope this post helps you write better logs.

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Bark
+title: Introduction
 tags:
   - bark
   - logging
@@ -43,7 +43,7 @@ Coming back to the point - Bark is the response of a need - the need of having s
 
 1. Can take in the logs from multiple services at the same time at high speed.
 2. Provides you the middle-ground between plaintext log files and terabyte-scale logging systems which are difficult to configure and use.
-3. Allows you to structure your logs by severity, service name, session name (e.g. Pod name), error code and maybe more fields.
+3. Allows you to structure your logs by [[log-levels-in-bark|severity]], service name, session name (e.g. Pod name), error code and maybe more fields.
 4. Easy to setup from within a codebase, as a standalone service or inside a kubernetes cluster
 5. Uses well-known technologies (PostgreSQL and Golang) circumventing the need to learn a new set of APIs to govern over logs
 6. Allows you to filter by any of the attributes listed above.

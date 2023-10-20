@@ -1,14 +1,16 @@
 ---
-draft: true
+draft: false
 title: The 7 levels of log severity
 tags:
   - blog
   - vaibhav
   - bark
+date: 2023-10-20
+updated: 2023-10-20
 ---
 One of the main changes in Go version 1.21 was the inclusion of the `log/slog` package which could perform _structured logging_. Structured logging refers to attaching some structure to logs and usually that means attaching a _severity level_, a timestamp and maybe other bits of information. 
 
-> [!info]+ [[projects/bark/introduction|Bark]] is a structured logging library that can use `log/bark`. 
+> [!info]+ [[projects/bark/01-introduction|Bark]] is a structured logging library that can use `log/bark`. 
 
 The most important of these is the timestamp which is pretty easy to implement with a simple wrapper function. Severity levels, often referred to as "log levels" or just "levels" is a little bit more complicated than that. Let's explore the levels in `log/slog`
 ## Slog Levels
@@ -33,9 +35,10 @@ Bark uses 7 different log levels (including the _debug_ level). Why 7? Because 1
 3. **Error**: This level is for errors which should be fixed ASAP. They are to be used when it is not the end user's fault that triggered it (for example, a user entering a wrong password). 
 4. **Warning**: This level is for issues that are not causing any functional problems whatsoever but should be tended to whenever there is time. For example, when the code is using an old method of doing something like an older version of TLS or SSL is being used.
 5. **Notice**: When you have a log message which contains some information which contains an actionable info but is not causing any error or problem. For example, when an API expects some optional arguments which were not supplied, you might want to log the event along with the defaults that are being used for those values. 
-6. **Info**: To be written
+6. **Info**: This is the log level that shows an info (information). A log message with this level indicates absolutely no problem anywhere but logs some info that might be useful later.
 7. **Debug**: This is the same as any logging library - to be used for times when you need to debug through a flow, usually when developing or testing an application rather than in production.
 
+**NOTE**: Bark Client can [[log-string-parsing-in-bark|parse the log level]] and [[logging-errors-properly|LMIDs]] from plaintext strings.
 ### Debug by default!
 A lot of logging libraries, including some famous ones, do not allow you to print the debug messages by default, especially under their default `production` configuration. While this is a good and mostly a desired effect, it can be a source of trouble when the user expects that the log message would show up when the code is running in production as well but it does not. Hence, Bark client inverts the idea. Instead of disabling the Debug level logs, it enables them everywhere. The choice to disable Debug messages is explicit and must be enabled by calling the designated function to do so. This is to ensure that when the user of the library (the client) wants to search for _why the debug messages are not being shown on the server or in the expected place like the output log file or the stdout_ - they should be able to find where that has been enabled (explicitly).
 

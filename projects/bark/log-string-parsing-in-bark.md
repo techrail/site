@@ -19,7 +19,7 @@ The general format of the Log message which the parser understands (and expects)
 
 These fields are:
 
-1. `LVL_CHAR`: is a _single character_ indicating the log severity level. The accepted characters are basically the first character of their names:
+1. `LVL_CHAR`: is a _single character_ indicating the [[log-levels-in-bark|log severity level]]. The accepted characters are basically the first character of their names:
 	- `P`: Panic
 	- `A`: Alert
 	- `E`: Error
