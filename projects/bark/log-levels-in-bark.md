@@ -35,3 +35,5 @@ Bark uses 7 different log levels (including the _debug_ level). Why 7? Because 1
 5. **Notice**: When you have a log message which contains some information which contains an actionable info but is not causing any error or problem. For example, when an API expects some optional arguments which were not supplied, you might want to log the event along with the defaults that are being used for those values. 
 6. **Debug**: This is the same as any logging library - to be used for times when you need to debug through a flow, usually when developing or testing an application rather than in production.
 
+### Debug by default!
+A lot of logging libraries, including some famous ones, do not allow 
