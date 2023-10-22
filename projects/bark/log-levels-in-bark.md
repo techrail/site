@@ -10,7 +10,7 @@ updated: 2023-10-20
 ---
 One of the main changes in Go version 1.21 was the inclusion of the `log/slog` package which could perform _structured logging_. Structured logging refers to attaching some structure to logs and usually that means attaching a _severity level_, a timestamp and maybe other bits of information. 
 
-> [!info]+ [[projects/bark/01-introduction|Bark]] is a structured logging library that can use `log/bark`. 
+> [!info] [[projects/bark/01-introduction|Bark]] is a structured logging library that can use `log/bark`. 
 
 The most important of these is the timestamp which is pretty easy to implement with a simple wrapper function. Severity levels, often referred to as "log levels" or just "levels" is a little bit more complicated than that. Let's explore the levels in `log/slog`
 ## Slog Levels
