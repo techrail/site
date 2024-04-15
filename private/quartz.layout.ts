@@ -9,7 +9,8 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/techrail",
       "Discord": "https://discord.gg/aKkWFghPrV",
-      "Docker": "https://hub.docker.com/u/techrail"
+      "Docker": "https://hub.docker.com/u/techrail",
+      "YouTube": "https://www.youtube.com/@TechrailIn"
     },
   }),
 }
