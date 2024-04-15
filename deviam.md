@@ -25,16 +25,18 @@ A user named **techrail** is available. The password for the same is `techrail.i
 ## What changes does it contain?
 The list of changes is here: 
 
-1. Installed curl and zsh and set zsh as the default shell for the **techrail** user.
-2. Changed the KDE Login Splash Screen.
-3. Installed VScodium
-4. Installed ZSH and curl
-5. Installed the JetBrains Mono NerdFont. 
-6. Created a new profile in konsole and set this font as the font there. The profile was named deviam and set to default as well
-7. Installed Oh My ZSH
-8. Installed Powerlevel10k theme and configured it with sane defaults
-9. The user icon of the techrail user was changed. The icon was placed in the pictures folder of the home directory.
-10. Neovim was installed 
-11. golang was installed 
-12. The toolbars for konsole and kate were hidden to make them look a little bit cleaner.
-13. neovim was configured with LSP and some other setups done.
+1. Installed `curl` and `zsh` and set zsh as the default shell for the **techrail** user
+2. Installed VSCodium (read the note below)
+3. Installed the JetBrains Mono Nerd Font ([Nerd Fonts](https://www.nerdfonts.com/) contain icons)
+4. Created a new profile in konsole and set this font as the font there. The profile was named deviam and set to default as well. Also, the terminal font in VSCodium was updated to use JetBrains Mono Nerd Font
+5. Installed Oh My ZSH and Powerlevel10k theme to spice up the terminal (sane defaults for Powerlevel10k theme)!
+6. User's bin directory (`/home/techrail/bin`) was added to PATH.
+7. Go and neovim were installed in the user's bin directory and symlinks were created so that they are easily available from the terminal.
+8. Installed a few plugins (Packer, Treesitter, Mason etc.) for neovim (check the `/home/techrail/.config/nvim` for details)
+9. Go LSP was installed and configured. The LSP is already linked to both neovim and VSCodium.
+10. The toolbars for konsole and kate were hidden to make them look a little bit cleaner (these are default programs for terminal and text editor in KDE)
+11. The login splash screen and user's login icon was changed to techrail site logo (branding).
+
+> [!success]+ Why VSCodium instead of VSCode?
+> It is because VSCode is a Microsoft product and its license specifically disallows redistribution. VSCodium is made on the same open source codebase from which VSCode is built and can be distributed much more freely as it does not contain the changes by Microsoft and technically is not a Microsoft product. It is the same difference between Chromium and Chrome browsers.
+
