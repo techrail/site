@@ -7,6 +7,8 @@ tags:
   - golang
 date: 2024-04-15
 updated: 2024-04-15
+aliases:
+  - Deviam
 ---
 The word **Deviam** is a play on 3 words: **Debian**, **VM** (stands for Virtual Machine) and **Dev** (stands for Development). Deviam is a Debian Virtual Machine which is preconfigured with a few things. It was created for being used as a common development environment for the [[details|Go Workshop]].
 
