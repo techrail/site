@@ -15,7 +15,11 @@ It can be downloaded from [here](https://1drv.ms/f/s!ApzGjqB_3CYRklyroD87XO5asT8
 
 _Hint_: Try to unzip (using 7zip) the first file. 
 
+**NOTE**: The Apple M1 based VM is still being worked on. It will be uploaded once done.
 ## How to use the VM?
+Deviam is a VMware VM. You would need to download and install VMware Workstation (on Intel based Windows and Linux) or VMware Fusion (on Mac) to use it. A free version is available from VMware's website.
+
+**Note**: You cannot run a VM which was not built for your architecture.
 
 ## What changes does it contain?
 The list of changes is here: 
