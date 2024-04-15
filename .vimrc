@@ -10,5 +10,8 @@ nmap <F9> :nohl
 " Yank to system clipboard
 set clipboard=unnamed
 
-" Use `jj` to go to normal mode
-imap jj <Esc>
+" Use `kj` to go to normal mode
+imap kj <Esc>
+
+
+

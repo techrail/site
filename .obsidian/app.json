@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "files",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "readableLineLength": false
 }
