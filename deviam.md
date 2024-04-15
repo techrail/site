@@ -21,6 +21,7 @@ Deviam is a VMware VM. You would need to download and install VMware Workstation
 
 **Note**: You cannot run a VM which was not built for your architecture.
 
+A user named **techrail** is available. The password for the same is `techrail.in`. The user _has sudo privileges_ so you should be fine with it. The root password was not set though.
 ## What changes does it contain?
 The list of changes is here: 
 
