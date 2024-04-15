@@ -13,7 +13,7 @@ aliases:
 The word **Deviam** is a play on 3 words: **Debian**, **VM** (stands for Virtual Machine) and **Dev** (stands for Development). Deviam is a Debian Virtual Machine which is preconfigured with a few things. It was created for being used as a common development environment for the [[details|Go Workshop]].
 
 ## How to download
-It can be downloaded from [here](https://1drv.ms/f/s!ApzGjqB_3CYRklyroD87XO5asT8f?e=gX61U7). The link will take you to a shared OneDrive folder. The Deviam VM is contained inside the _Virtual Machines_ folder. Go to the folder corresponding to your architecture. You will find two sub-folders. One of them contains the full VM as a single file. But it is huge at above 5 GB. If you ever encounter a problem with your network, it would be problematic. Hence, there is a second folder which contains the same contents but split in multiple 7zip files. You would need to have 7zip to unzip the file. 
+**It can be downloaded from [here](https://1drv.ms/f/s!ApzGjqB_3CYRklyroD87XO5asT8f?e=gX61U7).** The link will take you to a shared OneDrive folder. The Deviam VM is contained inside the _Virtual Machines_ folder. Go to the folder corresponding to your architecture. You will find two sub-folders. One of them contains the full VM as a single file. But it is huge at above 5 GB. If you ever encounter a problem with your network, it would be problematic. Hence, there is a second folder which contains the same contents but split in multiple 7zip files. You would need to have 7zip to unzip the file. 
 
 _Hint_: Try to unzip (using 7zip) the first file. 
 
