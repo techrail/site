@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Introduction - Why Go?
 tags:
   - blog
