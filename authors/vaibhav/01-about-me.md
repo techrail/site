@@ -6,6 +6,7 @@ tags:
 aliases:
   - resume
   - cv
+  - vaibhav
 ---
 I am [Vaibhav Kaushal](https://www.linkedin.com/in/vaibhavkaushal/) - a Software Engineer with 10+ years of experience as a coder but have been coding for fun since more than 15 years now. I have been a FullStack (Web+Backend) + DevOps guy since the beginning but am mostly backend-heavy these days. In the past I have written for a few Tech Magazines which includes Digit, CHIP and Linux for You. I have been one of the core developers of a PHP framework in the past (named QCubed) which has been used at NASA, Stanford School of Medicine and was the framework in which the world’s largest Chess community site (Chess.com) was written in the past.
 

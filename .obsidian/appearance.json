@@ -1,4 +1,7 @@
 {
   "accentColor": "",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "interfaceFontFamily": "FiraCode Nerd Font Mono",
+  "textFontFamily": "FiraCode Nerd Font Mono",
+  "monospaceFontFamily": "FiraCode Nerd Font Mono"
 }
