@@ -29,6 +29,7 @@ The Reverse Job Board for Go developers
 - We don't do head-hunting.
 - We make sure that the candidate is truly what he says he is on his Resume!
 
-## Setup a call
-Whether you are a candidate or a company, you can setup a 15-minute call using the button below to start with us. We will then decide about the next steps.
+
+> [!info]+ Setup a meeting
+> Whether you are a candidate or a company, you can **[schedule a 15-minutes call with us using this link](https://calendly.com/contact-techrail/godev-introduction)**. We can decide about the next steps after that.
 
