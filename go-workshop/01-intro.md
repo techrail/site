@@ -2,7 +2,8 @@
 draft: false
 title: Introduction - Why Go?
 tags:
-  - blog
+  - golang
+  - workshop
   - vaibhav
 date: 2023-10-04
 updated: 2023-10-10
