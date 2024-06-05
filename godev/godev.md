@@ -31,5 +31,5 @@ The Reverse Job Board for Go developers
 
 
 > [!info]+ Setup a meeting
-> Whether you are a candidate or a company, you can <a href="https://calendly.com/contact-techrail/godev-introduction" style="font-weight:bold;color:orange">schedule a 15-minutes call with us using this link</a>. We can decide about the next steps after that.
+> Whether you are a candidate or a company, you can <a href="https://calendly.com/contact-techrail/godev-introduction" style="font-weight:bold;color:orange">schedule a 15-minutes call with us using this link</a> to get started.
 
