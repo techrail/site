@@ -1,7 +1,6 @@
 [
   "obsidian-excalidraw-plugin",
-  "table-editor-obsidian",
   "obsidian-vimrc-support",
-  "open-vscode",
-  "obsidian-relative-line-numbers"
+  "obsidian-relative-line-numbers",
+  "unitade"
 ]

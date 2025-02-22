@@ -2,8 +2,9 @@
 draft: false
 title: Introduction - Why Go?
 tags:
-  - blog
   - vaibhav
+  - golang
+  - workshop
 date: 2023-10-04
 updated: 2023-10-10
 ---
@@ -14,7 +15,7 @@ The thing that most people want to do is to jump into the coding. Some of you mi
 ## Why go and why not something else?
 This course is about backend programming. Before we start, we have to think what backend programming is all about and the best way to think about that is to put it in contrast with other types of programming paradigms and associated requirements.
 
-> [info]+ For the people who love listening and watching
+> ![info]+ For the people who love listening and watching
 > The contents of this web page are also available online (recorded session):
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/AFKqcNIsfuY?si=ZLeVYRcl0V-oA5y1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ### Desktop Apps
